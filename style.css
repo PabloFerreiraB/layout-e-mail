@@ -1,0 +1,76 @@
+.container {
+    max-width: 750px;
+    height: 100%;
+    margin: 0 auto;
+    border: 15px solid #F5F5F5;
+    background-color: #F5F5F5;
+}
+
+.background {
+    background: #fff;
+    padding: 20px;
+    border-radius: 20px;
+    border: 1px solid #D2D2D2;
+    background-image: url(./image.png);
+}
+
+.logotipo {
+    text-align: center;
+}
+
+.logotipo>img {
+    width: 200px;
+    height: auto;
+}
+
+.text-prezado-cliente {
+    color: #0D8D97;
+}
+
+.textos {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #858786;
+}
+
+.baixar-app {
+    display: flex;
+    margin: -10px 0 20px;
+}
+
+.baixar-app>.app-1 {
+    margin-right: 10px;
+}
+
+button {
+    margin: 0 0 30px;
+    width: 180px;
+    height: 45px;
+    border-radius: 12px !important;
+    font-weight: bold;
+}
+
+footer>ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 0;
+}
+
+footer .item {
+    font-size: 30px;
+}
+
+footer>p {
+    text-align: center;
+    font-size: 1.2rem;
+    margin: 30px;
+    color: #858786;
+}
+
+.texto-copy {
+    text-align: center;
+    font-size: 16px;
+    margin: 30px;
+    color: #858786;
+}
